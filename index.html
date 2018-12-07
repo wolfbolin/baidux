@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+        <meta content="给不知道百度的人." name="description"/>
+        <meta content="baidu, 百度, 上网，搜索" name="keywords"/>
+        <link href="./img/favicon.ico" rel="icon" type="image/x-icon"/>
+        <title>
+            百度一下，你就知道
+        </title>
+        <link href="./css/index.css" rel="stylesheet">
+        </link>
+    </head>
+    <body>
+        <div class="wb-header" id="header">
+            <span>
+                你可能
+                <img id="logo" src="./img/bd_logo.png"/>
+                就能知道
+            </span>
+        </div>
+        <div class="wb-search" id="search">
+            <input autofocus="autofocus" id="search-input" type="text"/>
+            <button id="search-button">
+                百度一下
+            </button>
+        </div>
+        <div class="wb-tip" id="tip">
+            <span id="tip1">
+                我帮您教他如何使用百度搜索
+            </span>
+            <span id="tip2">
+                将问题输入后点击"百度一下"
+            </span>
+            <div class="wb-link" id="link">
+                <input id="tip-input" readonly="readonly" type="text"/>
+                <button class="copy" data-clipboard-target="#tip-input" id="tip-button">
+                    复制链接
+                </button>
+            </div>
+        </div>
+        <div class="wb-footer" id="footer">
+            <span>
+                . 
+        	百度(Baidu)是百度公司的商标，本产品和百度没有任何联系.
+            </span>
+            <br/>
+            <span>
+                CopyRight © 2018
+                <a href="mailto:mailto@wolfbolin.com">
+                    WolfBolin
+                </a>
+                |
+                <a href="mailto:mailto@wolfbolin.com">
+                    Github
+                </a>
+            </span>
+        </div>
+        <img class="wb-mouse" id="fake-mouse" src="./img/mouse.png"/>
+    </body>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js">
+    </script>
+    <script src="./js/clipboard.min.js">
+    </script>
+    <script src="./js/index.js">
+    </script>
+</html>

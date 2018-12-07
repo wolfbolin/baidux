@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-width: 810px;
+}
+.wb-header {
+    text-align: center;
+    margin-top: 100px;
+}
+.wb-header span {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+.wb-header img {
+    width: 270px;
+    height: 129px;
+}
+.wb-search {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 0;
+}
+.wb-search input {
+    border: 1px solid #b6b6b6;
+    width: 540px;
+    height: 32px;
+    vertical-align: middle;
+    font: 16px/18px arial;
+    padding-left: 7px;
+}
+.wb-search button {
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border: 1px solid #2d78f4;
+    vertical-align: middle;
+}
+.wb-search button:hover {
+    background: #317ef3;
+    border-bottom: 1px solid #2868c8;
+    box-shadow: 1px 1px 1px #ccc;
+}
+.wb-tip {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 0;
+}
+.wb-tip span {
+    font-size: 18px;
+    color: #999;
+    line-height: 2em;
+    display: block;
+}
+.wb-tip div {
+    display: none;
+}
+.wb-tip input {
+    border: 1px solid #b6b6b6;
+    width: 240px;
+    height: 32px;
+    vertical-align: middle;
+    font: 16px/18px arial;
+    padding-left: 7px;
+    margin-top: 12px;
+}
+.wb-tip button {
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+    margin-top: 12px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border: 1px solid #2d78f4;
+    vertical-align: middle;
+}
+.wb-tip button:hover {
+    background: #317ef3;
+    border-bottom: 1px solid #2868c8;
+    box-shadow: 1px 1px 1px #ccc;
+}
+.wb-footer {
+    margin-top: 90px;
+    border-top: solid 1px #dddddd;
+    padding-top: 36px;
+    text-align: center;
+}
+.wb-footer span, .wb-footer a {
+    color: #999;
+    font: 12px arial;
+}
+.wb-mouse {
+    display: none;
+    position: absolute;
+    z-index: 100;
+}
