@@ -38,7 +38,6 @@ function addSearchText(text, time) {
     $("#search-input").val(input);
     text = text.slice(1); // 删除已经写入的第一个字符
     if (text.length == 0) {
-        $("#tip2").text("输入之后点击\"百度一下\"按钮");
         return; // 递归结束
     }
     // 递归循环写入
@@ -120,6 +119,7 @@ $(document).ready(function() {
             "left": input_offest.left + 10,
         }, 2000, "swing", function() {
             // 计算每个字符的输入时间
+            $("#tip2").text("输入之后点击\"百度一下\"按钮");
             time = 1800 / query.length;
             addSearchText(query, time); // 逐个写入文本内容
         });
@@ -136,7 +136,7 @@ $(document).ready(function() {
             console.log(navigate);
             setTimeout(function() {
                 window.location.href = navigate;
-            }, 1000);
+            }, 1500);
         });
     }
 });
